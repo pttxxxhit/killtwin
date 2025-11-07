@@ -1,4 +1,3 @@
-def rename_files_in_sequence(files, base_name):
 import os
 import pathlib
 
