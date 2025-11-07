@@ -1,0 +1,10 @@
+{
+    "app": {
+        "name": "Automatización de Tareas",
+        "description": "Herramienta para automatizar tareas con archivos",
+        "route": "/",
+        "web": {
+            "pwa": true
+        }
+    }
+}

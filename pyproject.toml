@@ -1,0 +1,29 @@
+[tool.briefcase]
+project_name = "Automatizacion de Tareas"
+bundle = "com.tuapp"
+version = "0.1.0"
+url = ""
+license = "MIT license"
+author = "Tu Nombre"
+author_email = ""
+
+[tool.briefcase.app.automatizacion]
+formal_name = "Automatizacion de Tareas"
+description = "Una aplicación para automatizar tareas comunes"
+sources = ['main.py', 'borrar_duplicados.py', 'organizar_archivos.py', 'rename_files.py', 'cambiar_tamaño.py']
+requires = [
+    'flet>=0.21.0',
+    'pillow',
+]
+
+[tool.briefcase.app.automatizacion.windows]
+requires = []
+
+[tool.briefcase.app.automatizacion.macOS]
+requires = []
+
+[tool.briefcase.app.automatizacion.android]
+requires = []
+icon = "assets/icon"
+
+# iOS not supported through briefcase directly
