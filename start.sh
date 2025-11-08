@@ -1,2 +1,2 @@
 #!/bin/bash
-exec python main_web.py
+python static_server.py
